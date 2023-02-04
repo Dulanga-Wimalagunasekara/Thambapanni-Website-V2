@@ -572,9 +572,9 @@ section {
   padding: 15px 40px;
   border-radius: 4px;
   transition: 0.5s;
-  color: #fff;
-  background: #FFD700;
-  box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
+  color: #FFD700;
+  background: black;
+  box-shadow: 1px 1px 10px #777;
 }
 
 .about .btn-read-more span {
