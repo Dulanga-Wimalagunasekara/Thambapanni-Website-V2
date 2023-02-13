@@ -292,3 +292,7 @@
   new PureCounter();
 
 })();
+
+// document.getElementById("mymodel").modal({
+//
+// });
