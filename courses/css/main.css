@@ -1,4 +1,7 @@
 
+body{
+    overflow-x: hidden !important;
+}
 
 .bg-model {
     background-color: rgba(0, 0, 0, 0.8) !important;
