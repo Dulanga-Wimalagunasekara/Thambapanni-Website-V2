@@ -1,8 +1,3 @@
-
-body{
-    overflow-x: hidden !important;
-}
-
 .bg-model {
     background-color: rgba(0, 0, 0, 0.8) !important;
 }
@@ -28,6 +23,7 @@ body{
     background: transparent !important;
     border: none !important;
 }
+
 /*----------------------*/
 
 
@@ -85,4 +81,11 @@ body{
 .accordion-body {
     background-color: black !important;
     color: white !important;
+}
+#btnCancel {
+    margin-top: 5px;
+    margin-right: 10px;
+}
+#btnCancel:hover > svg {
+    fill: red;
 }

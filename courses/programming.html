@@ -21,7 +21,7 @@
     <!--    topic-->
     <div class="row  d-flex justify-content-center align-items-center pt-lg-5">
         <div class="col-12 text-center">
-            <h3 class="text-yellow page-topic ">GRAPHIC DESIGNING</h3>
+            <h3 class="text-yellow page-topic ">PROGRAMMING</h3>
             <h6 class="text-yellow">ZERO TO HERO</h6>
         </div>
     </div>
@@ -31,12 +31,12 @@
         <div class="col-12 col-md-6 col-lg-4 p-2 ">
 
             <div class="d-flex justify-content-center align-items-center">
-                <div class="profile" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                <div class="profile" style="background: url('../assets/img/courses/Python.png'); background-size: contain; background-repeat: no-repeat; background-position: center" data-bs-toggle="modal" data-bs-target="#exampleModal1">
 
                     <div class="overlay d-flex justify-content-center align-items-center">
                         <div>
                             <div class="about flex-column">
-                                <h4>My Ooredoo- Self CareApp (Algeria)</h4>
+                                <h4>Python Programming</h4>
                             </div>
                             <!--                            <button type="button" class="btn model-open-button bg-success" data-bs-toggle="modal" data-bs-target="#exampleModal2">-->
 
@@ -51,13 +51,13 @@
             <!-- Modal -->
             <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
                  aria-hidden="true">
-                <div class="modal-dialog modal-dialog modal-fullscreen">
+                <div class="modal-dialog modal-fullscreen">
                     <div class="modal-content modal-dialog-centered bg-model d-flex justify-content-lg-center align-items-center">
                         <div class=" d-flex justify-content-end pt-lg-5 col-12">
 
-                            <button type="button" style="position: fixed; z-index: 100; margin-right: 10px" class=" text-white model-close-button" data-bs-dismiss="modal"
+                            <button id="btnCancel" type="button" style="position: fixed; z-index: 100;" class=" text-white model-close-button" data-bs-dismiss="modal"
                                     aria-label="Close">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="red" class="bi bi-x-circle-fill" viewBox="0 0 16 16">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="grey" class="bi bi-x-circle-fill" viewBox="0 0 16 16">
                                     <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"/>
                                 </svg>
                             </button>
@@ -71,7 +71,7 @@
 <!--                                        <h2 class="model-topic">PROGRAMMING</h2>-->
 <!--                                    </div>-->
                                     <div class="col-12  col-lg-6"><img
-                                            src="https://dulanga.com/assets/img/ooredoo.png" class="img-fluid">
+                                            src="../assets/img/courses/Python.png" class="img-fluid">
                                     </div>
                                     <div class="col-12  col-lg-6 text-white ">
                                         <P class=" text-start ">
@@ -123,37 +123,103 @@
                                         <div class="accordion" id="accordionPanelsStayOpenExample">
                                             <div class="accordion-item">
                                                 <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                                                        Accordion Item #1
+                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+                                                        Setup and Running With Python
                                                     </button>
                                                 </h2>
-                                                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                                                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
                                                     <div class="accordion-body">
-                                                        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                                        <ul>
+                                                            <li>Installing Python</li>
+                                                            <li>Hello World</li>
+                                                        </ul>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="accordion-item">
                                                 <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
                                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                                                        Accordion Item #2
+                                                        The Basics (Data Types)
                                                     </button>
                                                 </h2>
                                                 <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
                                                     <div class="accordion-body">
-                                                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                                        <ul>
+                                                            <li>Variables</li>
+                                                            <li>Multiple Assignment</li>
+                                                            <li>Data Types and Ints</li>
+                                                            <li>Strings</li>
+                                                            <li>Placeholders</li>
+                                                            <li>Lists/Arrays</li>
+                                                            <li>List Functions</li>
+                                                            <li>Dictionaries</li>
+                                                            <li>Dictionary Functions</li>
+                                                            <li>Tuples</li>
+                                                        </ul>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="accordion-item">
                                                 <h2 class="accordion-header" id="panelsStayOpen-headingThree">
                                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                                                        Accordion Item #3
+                                                        Conditions and Loops
                                                     </button>
                                                 </h2>
                                                 <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
                                                     <div class="accordion-body">
-                                                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                                        <ul>
+                                                            <li>If-Else Statements</li>
+                                                            <li>Relational Operators</li>
+                                                            <li>Nested If/Else</li>
+                                                            <li>Elif Statements</li>
+                                                            <li>Logical Operators</li>
+                                                            <li>For Loops</li>
+                                                            <li>While Loops</li>
+                                                            <li>Nested For Loops</li>
+                                                            <li>Pass, Break and Continue</li>
+                                                            <li>Try and Except</li>
+                                                            <li>Commenting</li>
+                                                            <li>Quick Tips</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                                                        Functions
+                                                    </button>
+                                                </h2>
+                                                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                                                    <div class="accordion-body">
+                                                        <ul>
+                                                            <li>Creating our own Functions</li>
+                                                            <li>Global and Local Vars</li>
+                                                            <li>Abs and Bool</li>
+                                                            <li>Help and Dir</li>
+                                                            <li>Eval and Exec</li>
+                                                            <li>Str, Int, Float</li>
+                                                            <li>Recap and Sum</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                                                        File Input/Output
+                                                    </button>
+                                                </h2>
+                                                <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+                                                    <div class="accordion-body">
+                                                        <ul>
+                                                            <li>Creating a File</li>
+                                                            <li>Creating a File (Windows)</li>
+                                                            <li>Reading a File</li>
+                                                            <li>Writing to a File</li>
+                                                            <li>Appending to Files</li>
+                                                            <li>Copying Files</li>
+                                                        </ul>
                                                     </div>
                                                 </div>
                                             </div>
