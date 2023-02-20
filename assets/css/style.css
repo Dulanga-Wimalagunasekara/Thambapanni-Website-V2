@@ -2335,7 +2335,7 @@ section {
 .footer .footer-top .social-links a {
   font-size: 20px;
   display: inline-block;
-  color: rgba(1, 41, 112, 0.5);
+  color: #444444;
   line-height: 0;
   margin-right: 10px;
   transition: 0.3s;
