@@ -82,10 +82,10 @@
     background-color: black !important;
     color: white !important;
 }
-#btnCancel {
+.btnCancel {
     margin-top: 5px;
     margin-right: 10px;
 }
-#btnCancel:hover > svg {
+.btnCancel:hover > svg {
     fill: red;
 }
